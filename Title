@@ -12,4 +12,11 @@ def title():
 	  print("WELCOME TO ROCK BOTTOM:  ")
 	  pebbles(); pebbles(); pebbles(); pebbles(); pebbles(); pebbles();
 	  print("\n"*5)
+	  query = str(input("New Game?  (Y/N):  "))
+	  if query == "Y":
+		  print("OK!")
+		  #If this option is selected, proceed to next portion.
+	  elif query == "N":
+		  print("OK!")
+		  #If this option is selected, the program ends.
 title()
