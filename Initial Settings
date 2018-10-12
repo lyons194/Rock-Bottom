@@ -1,0 +1,22 @@
+"""
+This page details the initial settings portion, which is the second portion of the game.
+The initial settings portion is activated after the title portion.
+
+
+"""
+
+def game_intro_stats():
+	a = input("Please enter your name:  ")
+	b = str(input("Choose a difficulty level:  (Easy/Fair/Difficult)"))
+	if b == "Easy":
+		easy = []
+		print("Let's Begin! ")
+		print("\n"*10)
+	elif b == "Fair":
+		fair = []
+		print("Let's Begin! ")
+		print("\n"*10)
+	elif b == "Difficult":
+		difficult = []
+		print("Let's Begin! ")
+		print("\n"*10)
