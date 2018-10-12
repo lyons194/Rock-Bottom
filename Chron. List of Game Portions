@@ -1,0 +1,21 @@
+"""
+This is a complete list of all of Rock Bottom's portions.
+Each portion comprises a different phase/functionality of the game.
+
+
+1.) Title -- title() 
+2.) Game Initiation -- initiate()
+3.) Initial Settings/Other preliminary decisions (TBD) -- game_intro_stats()
+4.)
+5.)
+.
+.
+.
+.
+.
+N.) End Credits -- ?
+
+
+**Also-- remember that there is a game() function, which is defined in Python as containing all of these portions.
+
+"""
