@@ -1,0 +1,15 @@
+"""
+Title of Rock Bottom, a game which challenges the user to dive to the bottom of the ocean.
+
+
+"""
+def pebbles():
+	  print("0o0o0oO*Oo0o*0*o80o0o0o0o0o0*o*08o0o0o0o0o0o0o0o"
+		"00oo00o*OO*O0oO*0OoO0o*o80oOoO8*Oo0o0OoOo0OOoOooOoOO0*")
+pebbles()
+def title():
+	  print("\n"*10)
+	  print("WELCOME TO ROCK BOTTOM:  ")
+	  pebbles(); pebbles(); pebbles(); pebbles(); pebbles(); pebbles();
+	  print("\n"*5)
+title()
