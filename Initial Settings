@@ -10,13 +10,19 @@ def game_intro_stats():
 	b = str(input("Choose a difficulty level:  (Easy/Fair/Difficult)"))
 	if b == "Easy":
 		easy = []
+		easy.append(a)
+		easy.append("Easy")
 		print("Let's Begin! ")
 		print("\n"*10)
 	elif b == "Fair":
 		fair = []
+		fair.append(a)
+		fair.append("Fair")
 		print("Let's Begin! ")
 		print("\n"*10)
 	elif b == "Difficult":
 		difficult = []
+		difficult.append(a)
+		difficult.append("Difficult")
 		print("Let's Begin! ")
 		print("\n"*10)
