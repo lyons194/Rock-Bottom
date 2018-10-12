@@ -6,12 +6,12 @@ Game Initiation.
 """
 
 def initiate():
-	switch = 0
-	if switch < 1:
-		query1 = input("Would you like to play? (Y/N):  ")
-		if query1 == "N":
-			print("OK!")
-			break
-		elif query1 == "Y":
-			print("\n"*7)
+	  switch = 0
+	  if switch < 1:
+		  query1 = input("Would you like to play? (Y/N):  ")
+		  if query1 == "N":
+			  print("OK!")
+			  switch = switch + 1
+		  elif query1 == "Y":
+			  print("\n"*7)
 initiate()
