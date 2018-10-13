@@ -1,0 +1,25 @@
+def move_right():
+	print("\n"*20)
+	print(">--<>")
+	print("\n"*10)
+	pebbles(); pebbles(); pebbles(); pebbles(); pebbles(); pebbles();
+	counter = 0
+	def move():
+		movemove = str(input(" "))
+		if movemove == "d":
+			a = "          "
+			print("\n"*20)
+			print("{0}>--<>".format(a))
+			print("\n"*10)
+			pebbles(); pebbles(); pebbles(); pebbles(); pebbles(); pebbles();
+			if movemove == "d":
+				a = "          "
+				a = a + a
+				print("\n"*20)
+				print("{0}>--<>".format(a))
+				print("\n"*10)
+				pebbles(); pebbles(); pebbles(); pebbles(); pebbles(); pebbles();
+				if counter < 2:
+					move()
+					move()
+					move()
