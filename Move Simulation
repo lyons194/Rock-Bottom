@@ -1,5 +1,5 @@
 def pebbles():
-	print("0o0o0oO*Oo0o*0*o80o0o0o0o0o0*o*08o0o0o0o0o0o0o0o00oo00o*OO*O0oO*0OoO0o*o80oOoO8*Oo0o0OoOo0OOoOooOoOO0*")
+	print("0o0o0oO*Oo0o*0*o80o0o0o0o0o0*o*08o0o0o0o0o0o0o0o00oo00o*OO*O0oO*0OoO0o*o80oOoO8*Oo0o0OoOo0OOoOooOoOO0*0o0oO0o8o0o88oO0o*0ooo88oO8o00*o0oOo0oO0oO000OooOo0oo0Oo0O*o0oOO0o00ooo0o*oo0O00o0oO0o8B0o*0oO")
 
 def move():
 	a = "          "
