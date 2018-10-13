@@ -21,4 +21,18 @@ def move():
 			print("\n"*35)
 			print("{0}>--<>".format(a))
 			print("\n"*10)
-			pebbles(); pebbles(); pebbles(); pebbles(); pebbles(); pebbles()
+			pebbles(); pebbles(); pebbles(); pebbles(); pebbles(); pebbles();
+			move3 = str(input(" "))
+			if move3 == "d":
+				a = a + a
+				print("\n"*35)
+				print("{0}>--<>".format(a))
+				print("\n"*10)
+				pebbles(); pebbles(); pebbles(); pebbles(); pebbles(); pebbles();
+				move4 = str(input(" "))
+				if move4 == "d":
+					a = a + 1
+					print("\n"*35)
+					print("{0}>--<>".format(a))
+					print("\n"*10)
+					pebbles(); pebbles(); pebbles(); pebbles(); pebbles(); pebbles();
