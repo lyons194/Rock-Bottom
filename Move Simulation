@@ -1,4 +1,7 @@
 def move_right():
+	def pebbles():
+		  print("0o0o0oO*Oo0o*0*o80o0o0o0o0o0*o*08o0o0o0o0o0o0o0o"
+		"00oo00o*OO*O0oO*0OoO0o*o80oOoO8*Oo0o0OoOo0OOoOooOoOO0*")
 	print("\n"*20)
 	print(">--<>")
 	print("\n"*10)
